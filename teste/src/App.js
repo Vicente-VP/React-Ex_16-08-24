@@ -1,5 +1,6 @@
 import './App.css';
 import ListaProdutos from './Componentes/ListaProdutos';
+import CadastroProduto from './Componentes/CadastroProduto/index';
 import axios from 'axios';
 import {useEffect, useState} from 'react';
 
@@ -22,6 +23,7 @@ function App() {
       <h1>Lista Produtos</h1>
       <ListaProdutos produtos={produtos}></ListaProdutos>
 
+      <CadastroProduto carregaProdutos={carregaProdutos}/>
     </div>
   );
 }

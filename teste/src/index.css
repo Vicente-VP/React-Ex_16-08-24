@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.titulo{
+  font-size: 22pt;
+  font-weight: bold;
+  color: black;
+}
+
+.subTitulo{
+  color: rgb(49, 47, 47);
+  font-size: 15pt;
+}
+
+.card{
+  display: inline-block;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 400px;
+
+  background-color: #FFFF99;
+
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.imagem{
+  width: 8 0%;
+}

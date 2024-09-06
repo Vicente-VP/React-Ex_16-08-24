@@ -21,7 +21,7 @@ function App() {
   return (
     <div>
       <h1>Lista Produtos</h1>
-      <ListaProdutos produtos={produtos}></ListaProdutos>
+      <ListaProdutos produtos={produtos} carregaProdutos={carregaProdutos}></ListaProdutos>
 
       <CadastroProduto carregaProdutos={carregaProdutos}/>
     </div>
